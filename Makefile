@@ -1,6 +1,6 @@
 
 linux:
-	g++ -lboost_system -lboost_filesystem --std=c++11 -o we *.cpp
+	g++ -lboost_system-mt -lboost_filesystem-mt -o we main.cpp
 
 clean:
 	rm -f we
